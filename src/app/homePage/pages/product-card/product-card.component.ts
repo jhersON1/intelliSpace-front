@@ -10,10 +10,7 @@ import { ProductI } from '../../interfaces/product-card.interface';
   ],
   templateUrl: './product-card.component.html',
   styleUrl: './product-card.component.scss',
-  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export default class ProductCardComponent {
-  //tableWood: string = "assets/product-card/table-wood1.png"
   productImg = input.required<ProductI>();
-
 }
