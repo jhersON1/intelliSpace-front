@@ -9,5 +9,5 @@ import { NavbarComponent } from '../components/navbar/navbar.component';
   styleUrl: './home-page.component.scss'
 })
 export default class HomePageComponent {
-
+  banner = "assets/banner/banner.png"
 }
