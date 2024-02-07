@@ -1,23 +1,5 @@
 <app-navbar></app-navbar>
-<script>
-  window.addEventListener('scroll', function() {
-    var navbar = document.querySelector('app-navbar');
-    var bannerHeight = document.querySelector('.banner').offsetHeight;
-    var scrollTop = window.scrollY || window.pageYOffset;
-    if (scrollTop > bannerHeight) {
-      navbar.style.opacity = '1';
-    } else {
-      navbar.style.opacity = '0.5';
-    }
-  });
-</script>
-<div class="banner">
-    <img [src]="banner" class="img-fluid" alt="Banner">
-</div>
-<!-- Agrega más contenido para hacer scroll -->
-<div style="height: 1000px; background-color: #f0f0f0;">
-  <!-- Contenido adicional -->
-</div>
-
- 
-  
+    <div class="banner">
+        <img [src]="banner" class="img-fluid" alt="Banner">
+    </div>
+<app-footer></app-footer>
