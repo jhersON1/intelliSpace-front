@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import HomePageComponent from './homePage/home-page.component';
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -11,5 +10,5 @@ import HomePageComponent from './homePage/home-page.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'intelliSpace';
+  
 }
