@@ -44,3 +44,4 @@ Thumbs.db
 
 # Others
 package-lock.json
+.angular
