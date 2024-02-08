@@ -1,8 +1,25 @@
+<div class="home-page">
+  <app-navbar [navbarBackgroundColor]="navbarBackgroundColor"></app-navbar>
 
-<div class="container">
-  <div class="row">
-    @for (item of productsImg(); track $index) {
-    <app-card-product [productImg]="item" class="col-lg-4 col-md-6 col-12"></app-card-product>
-    }
+  <div class="banner">
+    <img [src]="banner" class="img-fluid" alt="Banner">
   </div>
+
+  <div class="title">
+    <span>Make your life better</span>
+  </div>
+
+  <div class="sub-title">
+    <span>Find the perfect product</span>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      @for (item of productsImg(); track $index) {
+      <app-card-product [productImg]="item" class="col-lg-4 col-md-6 col-12"></app-card-product>
+      }
+    </div>
+  </div>
+
+  <app-footer></app-footer>
 </div>
