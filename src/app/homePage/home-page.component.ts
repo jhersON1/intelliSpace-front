@@ -2,6 +2,7 @@ import { Component, signal, HostListener } from '@angular/core';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import ProductCardComponent from './pages/product-card/product-card.component';
+import { ImagesCollageComponent } from './pages/images-collage/images-collage.component';
 
 @Component({
   selector: 'app-home-page',
@@ -9,7 +10,8 @@ import ProductCardComponent from './pages/product-card/product-card.component';
   imports: [
     ProductCardComponent,
     NavbarComponent, 
-    FooterComponent
+    FooterComponent,
+    ImagesCollageComponent
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss'
