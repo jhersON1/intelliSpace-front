@@ -1,0 +1,30 @@
+.banner {
+    position: relative;
+    height: 800px;
+    margin-bottom: 1rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif; 
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.sub-title {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif; 
+    font-size: 17px; 
+}
+
+.container {
+    margin-top: 1rem;
+}
